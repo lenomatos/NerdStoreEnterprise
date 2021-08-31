@@ -40,7 +40,7 @@ namespace NSE.WebApp.MVC.Extensions
 
         public HttpContext ObterHttpContext()
         {
-            throw new NotImplementedException();
+            return _accessor.HttpContext;
         }
 
         public string ObterUserEmail()
